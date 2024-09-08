@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive portfolio website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav_logo">Phong</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="about.html" class="nav_link">About Me</a>
+            </li>
+          </ul>
+          <!-- Close button here -->
+          <div class="nav_close" id="nav-close">
+            <i class="ri-close-fill"></i>
+          </div>
+        </div>
+        <!-- Theme Button  -->
+        <div class="nav_actions">
+          <i class="ri-moon-fill change-theme" id="theme-button"></i>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="ri-apps-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section">
+        <div class="home_rectangle"></div>
+        <div class="home_container container grid">
+          <div class="home_perfil perfil">
+            <div class="perfil_content">
+              <img
+                src="./assets/img/avatar.png"
+                alt="image"
+                class="perfil_img"
+              />
+            </div>
+          </div>
+
+          <div class="home_content grid">
+            <div class="home_data grid">
+              <h1 class="home_name">Tăng Thiệu Phong</h1>
+              <h2 class="home_profession">PHP Laravel Developer</h2>
+              <div class="home_social">
+                <a
+                  href="https://github.com/thieuphong220203"
+                  target="_blank"
+                  class="home_social-link"
+                >
+                  <i class="ri-github-fill"></i>
+                </a>
+                <a href="" target="_blank" class="home_social-link">
+                  <i class="ri-linkedin-box-fill"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/xx22.1002202/"
+                  target="_blank"
+                  class="home_social-link"
+                >
+                  <i class="ri-facebook-box-fill"></i>
+                </a>
+              </div>
+            </div>
+            <a
+              href="assets/pdf/CV_TangThieuPhong.pdf"
+              download=""
+              class="home_button button"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section">
+        <h2 class="section__title">
+          The Services <br />
+          I Offer
+        </h2>
+        <div class="services_container container grid">
+          <article class="services_card">
+            <i class="ri-code-s-slash-line services_icon"> </i>
+            <h2 class="services_title">Web Developer</h2>
+            <p class="services_description">
+              I'm experts in web development, creating custom websites that
+              shine. From sleek designs to seamless functionality, we've got you
+              covered. Let's turn your ideas into an impressive online presence
+            </p>
+            <button class="services_button button">More Details</button>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <i class="ri-close-circle-fill services_modal-close"></i>
+                <h2 class="services_modal-title">Web Developer</h2>
+                <ul class="services_modal-list grid">
+                  <li class="services_modal-item">
+                    Create professional and quality websites at the client's
+                    request.
+                  </li>
+                  <li class="services_modal-item">
+                    I do web design in prototypes.
+                  </li>
+                  <li class="services_modal-item">
+                    I position your website with advanced SEO.
+                  </li>
+                  <li class="services_modal-item">
+                    I solve performance problems on web pages.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article class="services_card">
+            <i class="ri-pencil-fill services_icon"></i>
+            <h2 class="services_title">Web Designer</h2>
+            <p class="services_description">
+              I'm a web development expert, crafting dazzling custom sites. From
+              sleek designs to seamless functionality, we've got you covered.
+              Let's transform your ideas into an impressive online presence.
+            </p>
+            <button class="services_button button">More Details</button>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <i class="ri-close-circle-fill services_modal-close"></i>
+                <h2 class="services_modal-title">Web Designer</h2>
+                <ul class="services_modal-list grid">
+                  <li class="services_modal-item">
+                    Create professional and quality websites at the client's
+                    request.
+                  </li>
+                  <li class="services_modal-item">
+                    I do web design in prototypes.
+                  </li>
+                  <li class="services_modal-item">
+                    I position your website with advanced SEO.
+                  </li>
+                  <li class="services_modal-item">
+                    I solve performance problems on web pages.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article class="services_card">
+            <i class="ri-layout-line services_icon"></i>
+            <h2 class="services_title">Laravel Developer</h2>
+            <p class="services_description">
+              I specialize in Laravel development, crafting custom websites that
+              stand out. With expertise in design and a deep understanding of
+              Laravel's capabilities, I deliver sleek and scalable solutions
+              tailored.
+            </p>
+            <button class="services_button button">More Details</button>
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <i class="ri-close-circle-fill services_modal-close"></i>
+                <h2 class="services_modal-title">Laravel Developer</h2>
+                <ul class="services_modal-list grid">
+                  <li class="services_modal-item">
+                    Create professional and quality websites tailored to your
+                    specifications.
+                  </li>
+                  <li class="services_modal-item">
+                    I specialize in web design prototyping, ensuring seamless
+                    user experiences
+                  </li>
+                  <li class="services_modal-item">
+                    Leveraging advanced SEO techniquess
+                  </li>
+                  <li class="services_modal-item">
+                    I optimize your website's visibility and ranking
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+        <h2 class="section__title">My Team</h2>
+
+        <div class="testimonial_container container">
+          <div class="testimonial_swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="testimonial_card swiper-slide">
+                <div class="testimonial_border">
+                  <img
+                    src="assets/img/team1.jpg"
+                    alt=""
+                    class="testimonial_img"
+                  />
+                </div>
+                <h2 class="testimonial_name">Tiến Đạt</h2>
+                <p class="testimonial_description">
+                  I'm studying at the University of Information Technology,
+                  majoring
+                </p>
+              </article>
+              <article class="testimonial_card swiper-slide">
+                <div class="testimonial_border">
+                  <img
+                    src="assets/img/testimonial-2.png"
+                    alt=""
+                    class="testimonial_img"
+                  />
+                </div>
+                <h2 class="testimonial_name">Jackson</h2>
+                <p class="testimonial_description">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Nesciunt, non?
+                </p>
+              </article>
+              <article class="testimonial_card swiper-slide">
+                <div class="testimonial_border">
+                  <img
+                    src="assets/img/testimonial-3.png"
+                    alt=""
+                    class="testimonial_img"
+                  />
+                </div>
+                <h2 class="testimonial_name">Jenifer</h2>
+                <p class="testimonial_description">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Porro, voluptates.
+                </p>
+              </article>
+              <article class="testimonial_card swiper-slide">
+                <div class="testimonial_border">
+                  <img
+                    src="assets/img/testimonial-4.png"
+                    alt=""
+                    class="testimonial_img"
+                  />
+                </div>
+                <h2 class="testimonial_name">JohnSon</h2>
+                <p class="testimonial_description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat, cupiditate!
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <div class="footer_content grid">
+          <a href="index.html" class="footter_logo">Phong</a>
+          <ul class="footer_links">
+            <li>
+              <a href="about.html" class="footer_link">About Me</a>
+            </li>
+          </ul>
+
+          <div class="footer_social">
+            <a
+              href="https://www.facebook.com/"
+              class="footer_social-link"
+              target="_blank"
+              ><i class="ri-facebook-circle-fill"></i
+            ></a>
+            <a
+              href="https://twitter.com/"
+              class="footer_social-link"
+              target="_blank"
+              ><i class="ri-twitter-fill"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              class="footer_social-link"
+              target="_blank"
+              ><i class="ri-instagram-fill"></i
+            ></a>
+          </div>
+        </div>
+        <span class="footer_copy">&#169; All Rights Reserved 2024 </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup show-scroll" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== INDEX JS ===============-->
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
